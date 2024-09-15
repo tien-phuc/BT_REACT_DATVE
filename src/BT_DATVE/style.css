@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+#component {
+  display: flex;
+}
+
+#left {
+  width: 55%;
+}
+#right {
+  width: 40%;
+}
+
+.container {
+  max-width: 100%;
+}
+.btn {
+  width: 100%;
+  padding: 5px;
+  font-size: 10px;
+}
+.row {
+  margin-bottom: 10px;
+}
+
+.col {
+  padding: 5px;
+}
+
+.manHinh {
+  margin-left: 66px;
+  background-color: orange;
+  width: 90%;
+  height: 24px;
+}
+
+#daDat {
+  margin-right: 15px;
+  background-color: rgba(255, 0, 0, 0.719);
+  width: 20px;
+  height: 20px;
+}
+#chuaDat {
+  margin-right: 15px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+}
+td,
+tr {
+  text-align: center; 
+  vertical-align: middle; 
+}
+
+.remove {
+  width: 30px; 
+  height: 30px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 25px;
+}
+
